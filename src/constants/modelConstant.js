@@ -1,0 +1,8 @@
+export const ADD_USER = "ADD_USER";
+export const EDIT_USER = "EDIT_USER";
+export const CREATE_CLIENT = "CREATE_CLIENT";
+export const EDIT_CLIENT = "EDIT_CLIENT";
+export const CREATE_COMPONENT = "CREATE_COMPONENT";
+export const EDIT_COMPONENT = "EDIT_COMPONENT";
+export const CREATE_PRODUCT = "CREATE_PRODUCT";
+export const EDIT_PRODUCT = "EDIT_PRODUCT";
