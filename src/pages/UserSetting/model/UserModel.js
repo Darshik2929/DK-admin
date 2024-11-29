@@ -98,8 +98,12 @@ export default function UserModel(props) {
     };
 
     const handleSelectUserRole = (data) => {
-        setValue("selectedRole", data);
+        if (Array.isArray(data)) {
+            setValue("selectedRole", data); // Updates the selected roles
+        }
     };
+
+
 
     return (
         <>
